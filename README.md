@@ -14,5 +14,5 @@ Pretty  command-line interpreter.
 
 ```
 npm install
-gulp
+grunt
 ```

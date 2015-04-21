@@ -1,11 +1,10 @@
-node_modules/
-tmp/
-app/node_modules/
-app/credits.html
-app/d3dcompiler_46.dll
+node_modules
+tmp
+minified
+.tmp
 *.dll
 *.dat
 *.pak
 *.exe
-cache/
-build/
+cache
+build
