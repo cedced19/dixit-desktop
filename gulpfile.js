@@ -10,12 +10,12 @@ var builder = require('node-webkit-builder'),
     htmlmin = require('gulp-htmlmin'),
     fs = require('fs');
 
-gulp.task('copy-favicon', function() {  
+gulp.task('copy-favicon', function() {
   gulp.src('app/favicon.png')
     .pipe(gulp.dest('minified'));
 });
 
-gulp.task('copy-package', function() {  
+gulp.task('copy-package', function() {
   gulp.src('app/package.json')
     .pipe(gulp.dest('minified'));
 });
@@ -40,7 +40,7 @@ gulp.task('nw', ['minify'], function () {
 
     var nw = new builder({
         files: ['./minified/**/**', '!./minified/vendor/css/*.css0'],
-        platforms: ['win32', 'osx32', 'osx64', 'linux32', 'linux64'],
+        platforms: ['osx32', 'osx64', 'linux32', 'linux64'],
         winIco: './favicon.ico'
     });
 
@@ -101,4 +101,4 @@ gulp.task('dist-linux64', ['nw'], function () {
         .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('default', ['dist-win', 'dist-osx64', 'dist-osx32', 'dist-linux64', 'dist-linux32']);
+gulp.task('default', ['dist-osx64', 'dist-osx32', 'dist-linux64', 'dist-linux32']);

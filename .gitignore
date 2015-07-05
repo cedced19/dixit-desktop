@@ -1,10 +1,6 @@
 node_modules
-tmp
-minified
-.tmp
-*.dll
-*.dat
-*.pak
-*.exe
-cache
 build
+app/node_modules
+cache
+minified
+dist

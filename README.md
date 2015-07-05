@@ -4,7 +4,7 @@ Pretty  command-line interpreter.
 
 ## Installation
 
-1. [Download for Windows](https://raw.githubusercontent.com/cedced19/dixit-desktop/master/dist/Windows.zip)
+1. [Download for Windows]https://github.com/cedced19/dixit-desktop/releases/latest)
 2. Extract
 3. Execute `dixit-desktop.exe`
 
