@@ -4,7 +4,7 @@ Pretty  command-line interpreter.
 
 ## Installation
 
-1. [Download for Windows]https://github.com/cedced19/dixit-desktop/releases/latest)
+1. [Download](https://github.com/cedced19/dixit-desktop/releases/latest)
 2. Extract
 3. Execute `dixit-desktop.exe`
 
@@ -14,5 +14,10 @@ Pretty  command-line interpreter.
 
 ```
 npm install
-grunt
+gulp dist-win
+```
+or
+```
+npm install
+gulp
 ```
